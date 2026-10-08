@@ -1,0 +1,18 @@
+@extends('layouts.app')
+
+@section('content')
+    @include('sections.hero')
+    @include('sections.sambutan')
+    @include('sections.tentang')
+    @include('sections.pengurus')
+    @include('sections.kegiatan')
+    @include('sections.prestasi')
+    @include('sections.berita')
+    @include('sections.galeri')
+    @include('sections.panduan')
+    @include('sections.agenda')
+    @include('sections.peluang')
+    @include('sections.bantuan')
+    @include('sections.daftar')
+    @include('sections.kontak')
+@endsection
